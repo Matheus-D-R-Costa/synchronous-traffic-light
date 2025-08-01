@@ -1,0 +1,10 @@
+[package]
+name = "synchronous-traffic-light"
+version = "1.0.0"
+edition = "2024"
+
+[profile.release]
+opt-level = 3
+lto = "fat"
+codegen-units = 1
+strip = true
