@@ -1,0 +1,10 @@
+pub const SIMULATION_SPEEDUP_FACTOR: f64 = 3600.0; 
+pub const LATENCY_FACTOR: f64 = 1.000001;
+
+pub const SECONDS_IN_A_MINUTE: f64 = 60.0;
+pub const SECONDS_IN_3_MINUTES: f64 = 180.0;
+pub const SECONDS_IN_12_HOURS: f64 = 12.0 * 3600.0;
+pub const SECONDS_IN_24_HOURS: f64 = 24.0 * 3600.0;
+
+pub const FONT_SIZE_LARGE: f32 = 24.0;
+pub const FONT_SIZE_MEDIUM: f32 = 18.0;
